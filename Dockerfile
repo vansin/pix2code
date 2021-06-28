@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:1.4.0-gpu-py3
+FROM tensorflow/tensorflow:1.4.0-gpu
 RUN pip install Keras==2.1.2 \
     && pip install numpy==1.13.3 \
     && pip install opencv-python==3.3.0.10 \
