@@ -46,6 +46,7 @@ pip install -r  requirements.txt
 
 ```shell
 docker build -t pix2code:v2 . --build-arg UBUNTU_MIRROR="http://mirrors.163.com"
+docker build -t pix2code:v2 . --build-arg "HTTP_PROXY=http://127.0.0.1:7890"
 ```
 
 ## Usage
