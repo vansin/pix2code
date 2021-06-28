@@ -6,7 +6,7 @@ RUN pip install Keras==2.1.2 \
     && pip install tensorflow==1.4.0
 
 RUN apt-get update \
-    && apt-get install -y libsm6
+    && apt-get install -y libsm6 \
     && apt-get install -y libxrender1
 
 
