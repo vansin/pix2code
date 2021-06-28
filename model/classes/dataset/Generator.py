@@ -3,10 +3,12 @@ __author__ = 'Tony Beltramelli - www.tonybeltramelli.com'
 
 import numpy as np
 
-from classes.dataset.Dataset import *
-from classes.Vocabulary import *
-from classes.model.Config import *
-
+# from classes.dataset.Dataset import *
+# from classes.Vocabulary import *
+# from classes.model.Config import *
+from .Dataset import *
+from ..Vocabulary import *
+from ..model.Config import *
 
 class Generator:
     @staticmethod
