@@ -42,6 +42,12 @@ Both the source code and the datasets are provided to foster future research in 
 pip install -r  requirements.txt
 ```
 
+### docker install
+
+```shell
+docker build -t pix2code:v2 . --build-arg UBUNTU_MIRROR="http://mirrors.163.com"
+```
+
 ## Usage
 
 Prepare the data:
